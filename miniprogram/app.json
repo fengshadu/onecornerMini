@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "每日一隅",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#4280f2",
+    "backgroundColor": "#1d2228",
+    "borderStyle": "#101419",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/image/nav/icon.png",
+        "selectedIconPath": "pages/image/nav/icon.png",
+        "text": "自选"
+      },
+      {
+        "pagePath": "pages/storageConsole/storageConsole",
+        "iconPath": "pages/image/nav/icon.png",
+        "selectedIconPath": "pages/image/nav/icon.png",
+        "text": "行情"
+      },
+      {
+        "pagePath": "pages/databaseGuide/databaseGuide",
+        "iconPath": "pages/image/nav/icon.png",
+        "selectedIconPath": "pages/image/nav/icon.png",
+        "text": "资讯"
+      }
+    ]
+  }
+}
